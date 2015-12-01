@@ -17,8 +17,12 @@ public class TestUtils {
 	}
 	
 	@Test
-	public void test_remove_white_spaces() {
+	public void test_remove_white_spaces() {		
 	   	Assert.assertEquals("cococola", utils.removeWhiteSpaces("coco co:la   "));
 	}
-
+    
+	@Test
+	public void test() {
+          org.junit.Assert.fail();		
+	}
 }
