@@ -3,7 +3,7 @@ package com.jsf.practice.bean;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class Utils {
+public class Utils{
 	
 	public String removeWhiteSpaces(String str) {
 		return str.replaceAll("[^a-zA-Z0-9]", "");
