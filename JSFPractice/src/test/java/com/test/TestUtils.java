@@ -15,7 +15,6 @@ public class TestUtils {
 	public void setUp() {
 
 		/** added java doc comment*/
-		//TODO add new logs
 		//Removed sops and added logg statements.
 		utils = new Utils();
 	}
