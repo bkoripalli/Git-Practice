@@ -30,7 +30,6 @@ public class WebDriverTest {
 
     @Test
     public void webDriver() throws Exception {
-        // Make the browser get the page and check its title
         driver.get("http://www.amazon.com/");
         assertEquals("Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more", driver.getTitle());
     }

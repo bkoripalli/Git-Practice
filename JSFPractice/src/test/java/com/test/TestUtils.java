@@ -13,6 +13,8 @@ public class TestUtils {
 	
 	@Before
 	public void setUp() {
+		/** added java doc comment*/
+		//TODO add new logs
 		Syso();
 		utils = new Utils();
 	}
