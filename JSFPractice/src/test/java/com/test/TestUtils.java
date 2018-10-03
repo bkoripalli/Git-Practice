@@ -13,9 +13,10 @@ public class TestUtils {
 	
 	@Before
 	public void setUp() {
+
 		/** added java doc comment*/
 		//TODO add new logs
-		Syso();
+		//Removed sops and added logg statements.
 		utils = new Utils();
 	}
 	
