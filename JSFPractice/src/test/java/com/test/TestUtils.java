@@ -15,6 +15,8 @@ public class TestUtils {
 	public void setUp() {
 		//hello welcome to new git
 		//utils = new Utils();
+		Syso();
+		utils = new Utils();
 	}
 	
 	@Test
