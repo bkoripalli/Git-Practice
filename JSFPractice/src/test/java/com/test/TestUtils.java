@@ -13,7 +13,7 @@ public class TestUtils {
 	
 	@Before
 	public void setUp() {
-		
+		Syso();
 		utils = new Utils();
 	}
 	
