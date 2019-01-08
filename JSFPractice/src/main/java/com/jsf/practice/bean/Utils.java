@@ -6,6 +6,8 @@ import java.util.regex.Pattern;
 public class Utils{
 	
 	public String removeWhiteSpaces(String str) {
+		System.out.println("commit1");
+		System.out.println("commit2");
 		return str.replaceAll("[^a-zA-Z0-9]", "");
 		
 		
