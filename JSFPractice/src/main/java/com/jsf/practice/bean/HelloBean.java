@@ -7,4 +7,5 @@ public class HelloBean {
      public HelloBean(String message){
     	 //parameterised constructor
      }
+	 //master commit
 }
