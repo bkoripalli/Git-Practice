@@ -18,7 +18,7 @@ public class TestUtils {
 		//Removed sops and added logg statements.
 		utils = new Utils();
 	}
-	
+	// first one
 	@Test
 	public void test_remove_white_spaces() {		
 	   	Assert.assertEquals("cococola", utils.removeWhiteSpaces("coco co:la   "));
